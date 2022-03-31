@@ -933,7 +933,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #fdfdfd;
+  background-color: #1a2332;
 }
 
 .about {
@@ -975,7 +975,7 @@ table tfoot td {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #333030;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -1023,7 +1023,7 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  color: #ffffff;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1118,13 +1118,13 @@ footer .copyright {
       -ms-flex-align: stretch;
           align-items: stretch;
   min-height: 11rem;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
   overflow: hidden;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
 }
 
@@ -1164,7 +1164,7 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: 'PT Serif', serif;
   text-decoration: none;
-  color: #263959;
+  color: white;
 }
 
 .post .post-content p {
@@ -1197,6 +1197,12 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
+  color: white;
+  background: rgb(17,25,39);
+background: -moz-linear-gradient(274deg, rgba(17,25,39,1) 0%, rgba(26,35,50,1) 100%);
+background: -webkit-linear-gradient(274deg, rgba(17,25,39,1) 0%, rgba(26,35,50,1) 100%);
+background: linear-gradient(274deg, rgba(17,25,39,1) 0%, rgba(26,35,50,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#111927",endColorstr="#1a2332",GradientType=1);
 }
 
 .header-page {
@@ -1297,7 +1303,7 @@ a.newer-posts:hover {
   font-size: 10px;
   padding: 5px 10px;
   margin-left: 5px;
-  color: #263959;
+  color: #ffffff;
   text-transform: uppercase;
   border: 1px solid #263959;
 }
@@ -1576,4 +1582,39 @@ a.newer-posts:hover {
      background-position: 50% 50%;
      background-repeat: no-repeat;
    }
-   
+
+   #aboutauthor {
+    color: #ffffff;
+   }
+
+   .post-content {
+    background: rgb(17,25,39);
+    background: -moz-linear-gradient(274deg, rgba(17,25,39,1) 0%, rgba(26,35,50,1) 100%);
+    background: -webkit-linear-gradient(274deg, rgba(17,25,39,1) 0%, rgba(26,35,50,1) 100%);
+    background: linear-gradient(274deg, rgba(17,25,39,1) 0%, rgba(26,35,50,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#111927",endColorstr="#1a2332",GradientType=1);
+
+
+   }
+   .post-title {
+     color: #ffffff;
+   }
+
+   .post-date {
+     color: white;
+   }
+
+   .post-words {
+     color: white;
+   }
+
+   i {
+     color: white;
+   }
+   .copyright {
+     color: white;
+   }
+
+   #postcontent {
+     color: white;
+   }
