@@ -6,13 +6,13 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/whilesec" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+site-twitter: https://twitter.com/Wh1l3S3C #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Wh1l3S3C # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: We are Hackers # add description
-social-twitter: # add your Twitter handle
+social-twitter: 0xZuk0 # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: wh1l3s3c # add your Github handle
 social-linkedin: # add your Linkedin handle
