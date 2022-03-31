@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body>
-    <div class="wrapper">
+  <body id="particles-js">
+    <div class="wrapper" >
       {{ content }}
     </div>
-    
+    <script src="{{site.baseurl}}/assets/js/particles.js"></script>
+    <script src="{{site.baseurl}}/assets/js/app.js"></script>
     {% include analytics.html %}
   </body>
 </html>

@@ -933,7 +933,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #fdfdfd;
 }
 
 .about {
@@ -1509,7 +1509,7 @@ a.newer-posts:hover {
    html,body{ 
      width:100%;
      height:100%;
-     background:#111;
+     background:#111927;
    }
    
    html{
