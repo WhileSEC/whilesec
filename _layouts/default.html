@@ -2,14 +2,10 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <!-- edited by p4nth3r -->
-    <div id="particles-js">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-      {% include analytics.html %}
+    <div class="wrapper">
+      {{ content }}
     </div>
+    
+    {% include analytics.html %}
   </body>
-  <script src="../assets/js/particles.js"></script>
-  <script src="../assets/js/app.js"></script>
 </html>
